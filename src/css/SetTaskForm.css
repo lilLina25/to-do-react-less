@@ -1,0 +1,278 @@
+.hover:hover {
+  cursor: pointer;
+}
+.tf {
+  transition: transform 3ms ease;
+}
+.tf:hover {
+  transform: scale(1.25);
+}
+.task_wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 9999;
+  overflow: auto;
+}
+.task_wrapper .task_form {
+  border-radius: 9px;
+  padding: 1%;
+  background: #8244e6;
+  background: linear-gradient(309deg, #8244e6 0%, rgba(241, 145, 229, 0.99483543) 100%);
+  margin: 5% auto;
+}
+@media (min-width: 1800px) {
+  .task_wrapper .task_form {
+    max-width: 27%;
+  }
+  .task_wrapper .task_form span {
+    font-size: 35px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 40px;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 25px;
+    top: -40px;
+    right: -9%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1799.99px) {
+  .task_wrapper .task_form {
+    max-width: 35%;
+  }
+  .task_wrapper .task_form span {
+    font-size: 35px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 40px;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 25px;
+    top: -40px;
+    right: -9%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1150px) {
+  .task_wrapper .task_form {
+    max-width: 50%;
+  }
+  .task_wrapper .task_form span {
+    font-size: 35px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 40px;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 23px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 23px;
+    top: -30px;
+    right: -8%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 28px;
+  }
+}
+@media (max-width: 769px) {
+  .task_wrapper .task_form {
+    max-width: 55%;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 23px;
+  }
+  .task_wrapper .task_form span {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 30px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 20px;
+    top: -25px;
+    right: -8%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 23px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .task_wrapper .task_form {
+    max-width: 55%;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 16px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 18px;
+  }
+  .task_wrapper .task_form span {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 18px;
+    top: -20px;
+    right: -9%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 25px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .task_wrapper .task_form {
+    max-width: 55%;
+  }
+  .task_wrapper .task_form .checked_input {
+    font-size: 10px;
+  }
+  .task_wrapper .task_form .checked_input p {
+    font-size: 14px;
+  }
+  .task_wrapper .task_form span {
+    font-size: 18px;
+  }
+  .task_wrapper .task_form h2 {
+    font-size: 20px;
+  }
+  .task_wrapper .task_form .close_btn {
+    font-size: 16px;
+    top: -16px;
+    right: -10%;
+  }
+  .task_wrapper .task_form .file_input {
+    font-size: 12px;
+  }
+  .task_wrapper .task_form input,
+  .task_wrapper .task_form p {
+    font-size: 16px;
+  }
+  .task_wrapper .task_form .create_task {
+    font-size: 14px;
+  }
+}
+.task_wrapper .task_form .close_btn {
+  transition: transform 3ms ease;
+  float: right;
+  position: relative;
+}
+.task_wrapper .task_form .close_btn:hover {
+  cursor: pointer;
+}
+.task_wrapper .task_form .close_btn:hover {
+  transform: scale(1.25);
+}
+.task_wrapper .task_form .file_input {
+  border-radius: 9px;
+  width: 50%;
+  border: 1px solid white;
+  padding: 1%;
+}
+.task_wrapper .task_form .file_input:hover {
+  cursor: pointer;
+}
+.task_wrapper .task_form .hidden {
+  display: none;
+}
+.task_wrapper .task_form input {
+  border-radius: 9px;
+  margin-bottom: 8%;
+  width: 90%;
+  color: black;
+}
+.task_wrapper .task_form p {
+  color: black;
+}
+.task_wrapper .task_form button {
+  border-radius: 9px;
+  font-size: 25px;
+  padding: 1% 4%;
+  margin: 8% 2% 0%;
+  color: black;
+  width: 96%;
+}
+.task_wrapper .task_form button:hover {
+  cursor: pointer;
+}
+.task_wrapper .task_form .checked_input {
+  display: flex;
+  margin: 5% 0% 0%;
+  align-items: center;
+}
+.task_wrapper .task_form .checked_input input {
+  margin: 0%;
+  width: 35px;
+}
+.task_wrapper .task_form .checked_input input:hover {
+  cursor: pointer;
+}
+.task_wrapper .task_form .img_container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

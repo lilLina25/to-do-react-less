@@ -1,0 +1,58 @@
+/*Обнуляющие стили*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Marck+Script&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Marck Script', cursive;
+  color: #f3e2ed;
+}
+body {
+  background: rgb(0,6,36);
+  background: linear-gradient(151deg, rgba(0,6,36,1) 0%, rgba(147,78,203,1) 45%, rgba(171,0,255,1) 100%);
+}
+ @media(max-width:300px){
+  body{
+    background: #9d2be1;
+  }
+  }
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.main_container {
+  min-height: 100vh;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}

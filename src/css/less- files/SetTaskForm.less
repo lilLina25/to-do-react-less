@@ -1,0 +1,261 @@
+.br(@br) {
+	border-radius: @br;
+}
+.fs(@fs) {
+	font-size: @fs;
+}
+.hover {
+		&:hover{
+			cursor: pointer;
+		}
+}
+.tf {
+	transition: transform 3ms ease;
+	&:hover {
+		transform: scale(1.25);
+	}
+}
+.task_wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 9999;
+  overflow: auto;
+
+	.task_form {
+	.br(9px);
+		@media(min-width:1800px){
+			max-width:27%;
+				span {
+				.fs(35px);
+				}
+				h2{
+					.fs(40px);
+				}
+				.checked_input {
+				.fs(20px);
+					p{
+					.fs(25px);
+					}
+				}
+				.close_btn{
+				.fs(25px);
+				top: -40px;
+				right:-9%;
+			}
+			.file_input {
+				.fs(30px);
+			}
+			input, p {
+				.fs(30px);
+			}
+			.create_task {
+				.fs(30px);
+			}
+	}
+	@media(max-width:1799.99px){
+		max-width:35%;
+			span {
+				.fs(35px);
+			}
+			h2{
+				.fs(40px);
+			}
+			.checked_input {
+				.fs(20px);
+				p{
+					.fs(25px);
+					}
+			}
+			.close_btn {
+				.fs(25px);
+				top: -40px;
+				right:-9%;
+			}
+			.file_input {
+				.fs(30px);
+			}
+				input, p {
+				.fs(30px);
+			}
+				.create_task {
+				.fs(30px);
+			}
+	}
+	@media(max-width: 1150px){
+		max-width: 50%;
+			span {
+			.fs(35px);
+			}
+			h2{
+				.fs(40px);
+			}
+			.checked_input {
+			.fs(20px);
+			p{
+					.fs(23px);
+					}
+			}
+		.close_btn {
+				.fs(23px);
+				top: -30px;
+				right:-8%;
+			}
+			.file_input {
+				.fs(30px);
+			}
+		input, p {
+				.fs(30px);
+			}
+				.create_task {
+				.fs(28px);
+			}
+		}
+	@media(max-width: 769px) {
+			max-width: 55%;
+				.checked_input {
+				.fs(20px);
+				p{
+					.fs(23px);
+					}
+				}
+				span {
+			  .fs(25px);
+				}
+				h2{
+					.fs(30px);
+				}
+				.close_btn {
+				.fs(20px);
+				top: -25px;
+				right:-8%;
+			}
+			.file_input {
+				.fs(23px);
+			}
+			input, p {
+				.fs(25px);
+			}
+				.create_task {
+				.fs(24px);
+			}
+	}
+	@media(max-width:500px){
+			max-width: 55%;
+			.checked_input {
+				.fs(16px);
+				p{
+					.fs(18px);
+					}
+				}
+			span {
+			  .fs(20px);
+				}
+				h2{
+					.fs(25px);
+				}
+			.close_btn {
+				.fs(18px);
+				top: -20px;
+				right:-9%;
+			}
+			.file_input {
+				.fs(20px);
+			}
+			input, p {
+				.fs(25px);
+			}
+				.create_task {
+				.fs(18px);
+			}
+	}
+	@media(max-width:400px){
+			max-width: 55%;
+				.checked_input {
+				.fs(10px);
+				p{
+					.fs(14px);
+					}
+				}
+				span {
+			  .fs(18px);
+				}
+				h2{
+					.fs(20px);
+				}
+				.close_btn {
+				.fs(16px);
+				top: -16px;
+				right:-10%;
+			}
+			.file_input {
+				.fs(12px);
+			}
+			input, p {
+				.fs(16px);
+			}
+				.create_task {
+				.fs(14px);
+			}
+	}	
+	padding: 1%;
+	background: rgb(130,68,230);
+	background: linear-gradient(309deg, rgba(130,68,230,1) 0%, rgba(241,145,229,0.9948354341736695) 100%);
+	margin: 5% auto;
+
+	.close_btn {
+		.hover;
+		.tf;
+		float:right;
+		position:relative;
+	}
+	.file_input {
+		.br(9px);
+		.hover;
+		width: 50%;
+		border: 1px solid white;
+		padding:1%;
+	}
+	.hidden {
+		display: none;
+	}
+	input {
+		.br(9px);
+		margin-bottom: 8%;
+		width: 90%;
+		color:black;
+	}
+	p {
+		color:black;
+	}
+	button {
+		.br(9px);
+		.fs(25px);
+		.hover;
+		padding: 1% 4%;
+		margin: 8% 2% 0%;
+		color:black;
+		width:96%;
+	}
+
+	.checked_input {
+		display:flex;
+		margin: 5% 0% 0%;
+		align-items: center;
+
+		input {
+					margin: 0%;
+					width: 35px;
+					.hover;
+		}
+	}
+	.img_container {
+		max-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+}

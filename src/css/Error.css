@@ -1,0 +1,25 @@
+.error_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  overflow: auto;
+}
+.error_container .error {
+  width: 23%;
+  height: 150px;
+  padding: 1%;
+  background: #8244e6;
+  background: linear-gradient(309deg, #8244e6 0%, rgba(241, 145, 229, 0.99483543) 100%);
+  background-color: #fff;
+  border-radius: 9px;
+  margin: 12% auto;
+  font-weight: 700;
+  text-align: center;
+}
+.error_container .error p {
+  font-size: 40px;
+}

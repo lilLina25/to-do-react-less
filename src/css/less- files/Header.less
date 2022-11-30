@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1.25%;
+	border-bottom:1px solid black ;
+	h1 {
+	font-family: 'Dancing Script', cursive;
+	@media(max-width:480px){
+			font-size: 25px;
+		}
+	}
+	.add_icon {
+		&:hover {
+			cursor:pointer;
+			transform: scale(1.07);
+		}
+		font-size: 35px;
+		@media(max-width:768px){
+			font-size: 28px;
+		}
+		@media(max-width:480px){
+			font-size: 24px;
+		}
+	}
+}
