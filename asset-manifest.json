@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/to-do-react-less/static/css/main.b5c0bb1f.css",
+    "main.js": "/to-do-react-less/static/js/main.a3ccf0b5.js",
+    "index.html": "/to-do-react-less/index.html",
+    "main.b5c0bb1f.css.map": "/to-do-react-less/static/css/main.b5c0bb1f.css.map",
+    "main.a3ccf0b5.js.map": "/to-do-react-less/static/js/main.a3ccf0b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c0bb1f.css",
+    "static/js/main.a3ccf0b5.js"
+  ]
+}
